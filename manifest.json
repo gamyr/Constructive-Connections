@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "bully",
+    "description": "This hides negative and mean comments to reduce cyberbullying.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/index.js"
+            ],
+            "matches": [
+                "https://www.instagram.com/*",
+                "https://twitter.com/*",
+                "https://www.youtube.com/*"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "scripts/background.js",
+        "permissions": [
+            "https://loydni.pythonanywhere.com/*"
+        ]
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ]
+}
