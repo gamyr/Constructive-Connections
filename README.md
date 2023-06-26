@@ -1,4 +1,4 @@
-# webhack
+# Constructive Connections
 
 ## Inspiration
 Cyberbullying is sadly a pervasive part of the Internet. According to the National Institute of Health, cyberbullying causes more depression-like symptoms in teenagers than regular bullying. This can lead to issues such as depression and problems with self-image with social media use. We wanted to fix this.
